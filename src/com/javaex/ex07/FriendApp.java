@@ -26,8 +26,8 @@ public class FriendApp {
         	
         	Friend Friend = new Friend();                          // Friend 인스턴스 생성하여 데이터 넣기 
         	Friend.setName(name);
-        	Friend.setName(Pname);
-        	Friend.setName(school);
+        	Friend.setHp(Pname);
+        	Friend.setSchool(school);
         	
         	friendArray[i] = Friend;                               // 인스턴스 주소를 배열에 대입 
         }
